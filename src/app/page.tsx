@@ -1,5 +1,6 @@
 import { Header } from '@/components/Header';
 import { IntroSection } from '@/components/Sections/IntroSection';
+import { PerfectForYouSection } from '@/components/Sections/PerfectForYouSection';
 import { ProductsSection } from '@/components/Sections/ProductsSection';
 
 export default function Home() {
@@ -12,11 +13,11 @@ export default function Home() {
         <div id="section1" className="min-h-screen">
           <IntroSection />
         </div>
-        <div id="section2" className="min-h-[200vh] bg-dark-grey">
+        <div id="section2" className="min-h-[150vh] bg-dark-grey">
           <ProductsSection />
         </div>
         <div id="section3" className="min-h-screen">
-          <p>Sections 3</p>
+          <PerfectForYouSection />
         </div>
         <div id="section4" className="min-h-screen">
           <p>Sections 4 </p>

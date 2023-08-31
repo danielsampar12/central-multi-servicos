@@ -1,9 +1,9 @@
 import { ProductCard } from '@/components/Cards/ProductCard';
 
-import image1 from '../../../assets/icons/prod-icon1.svg';
-import image2 from '../../../assets/icons/prod-icon2.svg';
-import image3 from '../../../assets/icons/prod-icon3.svg';
-import image4 from '../../../assets/icons/prod-icon4.svg';
+import image1 from '@/assets/icons/prod-icon1.svg';
+import image2 from '@/assets/icons/prod-icon2.svg';
+import image3 from '@/assets/icons/prod-icon3.svg';
+import image4 from '@/assets/icons/prod-icon4.svg';
 
 export function ProductsSection() {
   const description =
