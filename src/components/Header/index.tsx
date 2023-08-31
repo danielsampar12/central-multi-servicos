@@ -33,5 +33,5 @@ export function Header() {
         </button>
       </div>
     </div>
-  )
+  );
 }

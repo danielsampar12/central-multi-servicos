@@ -1,5 +1,6 @@
-import { Header } from '@/components/Header'
-import { IntroSection } from '@/components/Sections/IntroSection'
+import { Header } from '@/components/Header';
+import { IntroSection } from '@/components/Sections/IntroSection';
+import { ProductsSection } from '@/components/Sections/ProductsSection';
 
 export default function Home() {
   return (
@@ -11,8 +12,8 @@ export default function Home() {
         <div id="section1" className="min-h-screen">
           <IntroSection />
         </div>
-        <div id="section2" className="min-h-screen">
-          <p>Sections 2</p>
+        <div id="section2" className="min-h-[200vh] bg-dark-grey">
+          <ProductsSection />
         </div>
         <div id="section3" className="min-h-screen">
           <p>Sections 3</p>
@@ -26,5 +27,5 @@ export default function Home() {
       </main>
       {/* <footer className="w-full text-center border-t border-grey p-4">some footer</footer> */}
     </div>
-  )
+  );
 }
