@@ -1,8 +1,27 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import localFont from 'next/font/local'
 
-const inter = Inter({ subsets: ['latin'] })
+const local = localFont({
+  src: [
+    {
+      path: '../assets/fonts/EuropaGroteskSH-Reg.otf',
+      weight: '400'
+    },
+    {
+      path: '../assets/fonts/EuropaGroteskSH-Bol.otf',
+      weight: '700'
+    }
+  ],
+  variable: '--font-europa-grotesk'
+})
+
+const inter = Inter({ 
+  subsets: ['latin'],
+  weight: ['400', '700'],
+  variable: '--font-inter' 
+})
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -15,8 +34,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html className="scroll-smooth" lang="en">
+      <body className={`${local.variable} ${inter.variable}`}>
+        {children}
+      </body>
     </html>
   )
 }
