@@ -12,7 +12,7 @@ export function SmallProductCard({
   imagePath,
 }: SmallProductCardProps) {
   return (
-    <div className="ProductCard p-6 bg-white rounded-2xl shadow flex-col justify-center items-start inline-flex">
+    <div className="ProductCard p-6 bg-white rounded-2xl shadow flex-col justify-center drop-shadow-2xl items-start inline-flex">
       <div className="IconContainer flex flex-row w-full justify-start items-start mb-6">
         <Image src={imagePath} alt="Product image" />
         <span className="ProductTitle pl-5 text-black font-inter text-sm font-medium mb-8">

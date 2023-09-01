@@ -3,6 +3,8 @@ import { PhoneCard } from '@/components/Cards/PhoneCard';
 import image2 from '@/assets/icons/prod-icon2.svg';
 import { Paragraph } from '@/components/Typography/Paragraph';
 import { SmallProductCard } from '@/components/Cards/SmProductCard';
+import { CardWithPhoto } from '@/components/Cards/CardWithPhoto';
+import { PaymentMethodCard } from '@/components/Cards/PaymentMethodCard';
 
 export function PerfectForYouSection() {
   const description =
@@ -35,15 +37,15 @@ export function PerfectForYouSection() {
         </div>
 
         <div className="container2 col-span-1 grid grid-cols-2 gap-4">
-          <div className="photos1 col-span-1 grid grid-flow-row grid-rows-3 gap-4">
-            <div className="PhoneCardContainer row-span-2">
+          <div className="photos1 col-span-1 flex flex-col items-center gap-4">
+            <div className="PhoneCardContainer">
               <PhoneCard
                 mainText="Campo 1"
                 title="Lorem ipsum"
                 subtext="A um clique de distancia"
               />
             </div>
-            <div className="ProdCardContainer row-span-1">
+            <div className="ProdCardContainer">
               <SmallProductCard
                 description={description}
                 imagePath={image2}
@@ -51,7 +53,10 @@ export function PerfectForYouSection() {
               />
             </div>
           </div>
-          <div className="photos1 col-span-1  bg-cms-green h-full"></div>
+          <div className="photos1 col-span-1 h-full flex flex-col justify-center items-center gap-5 ">
+            <CardWithPhoto />
+            <PaymentMethodCard />
+          </div>
         </div>
       </div>
     </div>
