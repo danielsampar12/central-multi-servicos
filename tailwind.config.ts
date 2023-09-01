@@ -8,12 +8,14 @@ const config: Config = {
   ],
   theme: {
     screens: {
+      'smmax': { max: '640px' },
       'sm': '640px',
       // => @media (min-width: 640px) { ... }
 
       'md': '768px',
       // => @media (min-width: 768px) { ... }
 
+      'lgmax': { max: '1120px' },
       'lg': '1024px',
       // => @media (min-width: 1024px) { ... }
 

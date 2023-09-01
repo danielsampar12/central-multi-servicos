@@ -22,19 +22,19 @@ export function Header() {
       <div className="item2 col-span-2 flex items-center justify-center gap-16">
         <a
           href="#section2"
-          className="Products font-europa text-header-text text-2xl font-normal tracking-header"
+          className="Products font-europa text-header-text text-xl xl:text-2xl font-normal tracking-header lgmax:hidden"
         >
           Produtos
         </a>
         <a
           href="#section3"
-          className="Benefits font-europa text-header-text text-2xl font-normal tracking-header"
+          className="Benefits font-europa text-header-text text-xl xl:text-2xl font-normal tracking-header lgmax:hidden"
         >
           Benefícios
         </a>
         <a
           href="#section4"
-          className="AboutUs font-europa text-header-text text-2xl font-normal tracking-header"
+          className="AboutUs font-europa text-header-text text-xl xl:text-2xl font-normal tracking-header lgmax:hidden"
         >
           Sobre nós
         </a>
