@@ -11,7 +11,7 @@ export default function Home() {
       <header className="w-full text-center">
         <Header />
       </header>
-      <main className="flex-1 overflow-y-scroll">
+      <main className="flex-1 overflow-y-scroll no-scrollbar">
         <div id="section1" className="min-h-screen">
           <IntroSection />
         </div>
