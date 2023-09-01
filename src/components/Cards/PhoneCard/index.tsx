@@ -1,6 +1,7 @@
 import Image from 'next/image';
 
 import phone from '@/assets/iphone.svg';
+import { PhoneCardButton } from '@/components/Buttons/PhoneCardButton';
 
 interface PhoneCardProps {
   title: string;
@@ -26,14 +27,7 @@ export function PhoneCard({ mainText, subtext, title }: PhoneCardProps) {
         {subtext}
       </span>
 
-      <button
-        type="button"
-        className="ContactUsButtonOnCard w-full h-12 rounded-3xl px-10 py-4 gap-2 inline-flex items-center justify-center bg-gradient-to-r from-0.17% from-cms-green via-62.04% via-cms-light-blue to-100% to-cms-blue"
-      >
-        <p className="ContactUsOnCard text-white text-lg font-medium tracking-wide">
-          Entre em contato
-        </p>
-      </button>
+      <PhoneCardButton />
     </div>
   );
 }

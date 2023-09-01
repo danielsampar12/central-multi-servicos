@@ -1,7 +1,9 @@
+import { MainFooter } from '@/components/Footers/MainFooter';
 import { Header } from '@/components/Header';
 import { IntroSection } from '@/components/Sections/IntroSection';
 import { PerfectForYouSection } from '@/components/Sections/PerfectForYouSection';
 import { ProductsSection } from '@/components/Sections/ProductsSection';
+import { WhoWeAreSection } from '@/components/Sections/WhoWeAreSection';
 
 export default function Home() {
   return (
@@ -19,11 +21,14 @@ export default function Home() {
         <div id="section3" className="min-h-screen">
           <PerfectForYouSection />
         </div>
-        <div id="section4" className="min-h-screen">
-          <p>Sections 4 </p>
+        <div
+          id="section4"
+          className="min-h-[80vh] flex items-center justify-center bg-light-grey"
+        >
+          <WhoWeAreSection />
         </div>
-        <div id="section5" className="min-h-screen">
-          <p>Sections 5</p>
+        <div id="footer" className="min-h-[50vh] bg-dark-grey">
+          <MainFooter />
         </div>
       </main>
       {/* <footer className="w-full text-center border-t border-grey p-4">some footer</footer> */}

@@ -2,6 +2,7 @@ import { BigGradientText } from '@/components/Typography/BigGradientText';
 import Image from 'next/image';
 
 import ballsHehehe from '../../../assets/bolinha.svg';
+import { IntroButton } from '@/components/Buttons/IntroButton';
 
 export function IntroSection() {
   return (
@@ -19,15 +20,7 @@ export function IntroSection() {
           <p className="Slogan text-header-text text-2xl font-medium tracking-spaced">
             Para sua empresa crescer e prosperar.
           </p>
-
-          <button
-            type="button"
-            className="ContactUsButton w-full h-12 rounded-3xl px-10 py-4 gap-2 inline-flex items-center justify-center bg-gradient-to-r from-0.17% from-cms-green via-62.04% via-cms-light-blue to-100% to-cms-blue"
-          >
-            <p className="ContactUs text-white text-xl font-medium tracking-wide">
-              Fale conosco
-            </p>
-          </button>
+          <IntroButton />
         </div>
       </div>
 

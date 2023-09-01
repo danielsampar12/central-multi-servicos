@@ -24,6 +24,7 @@ const config: Config = {
     extend: {
       backgroundColor: {
         'header-grey': '#E8E8E866',
+        'light-grey': '#E8E8E8',
         'dark-grey': '#333',
         'white': '#FFF',
       },
@@ -31,6 +32,7 @@ const config: Config = {
         'white': '#FFF',
         'prod-p': 'rgba(255, 255, 255, 0.60)',
         'black': '#000',
+        'dark-grey': '#333',
       },
     },
   },

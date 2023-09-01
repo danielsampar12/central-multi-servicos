@@ -6,8 +6,20 @@ import localFont from 'next/font/local';
 const local = localFont({
   src: [
     {
+      path: '../assets/fonts/EuropaGroteskSH-XLig.otf',
+      weight: '300',
+    },
+    {
       path: '../assets/fonts/EuropaGroteskSH-Reg.otf',
       weight: '400',
+    },
+    {
+      path: '../assets/fonts/EuropaGroteskSH-Med.otf',
+      weight: '500',
+    },
+    {
+      path: '../assets/fonts/EuropaGroteskSH-MedEx.otf',
+      weight: '600',
     },
     {
       path: '../assets/fonts/EuropaGroteskSH-Bol.otf',
@@ -19,7 +31,7 @@ const local = localFont({
 
 const inter = Inter({
   subsets: ['latin'],
-  weight: ['400', '700'],
+  weight: ['300', '400', '500', '600', '700'],
   variable: '--font-inter',
 });
 

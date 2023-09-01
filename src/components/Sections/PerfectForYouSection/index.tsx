@@ -38,7 +38,7 @@ export function PerfectForYouSection() {
 
         <div className="container2 col-span-1 grid grid-cols-2 gap-4">
           <div className="photos1 col-span-1 flex flex-col items-center gap-4">
-            <div className="PhoneCardContainer">
+            <div className="PhoneCardContainer w-full">
               <PhoneCard
                 mainText="Campo 1"
                 title="Lorem ipsum"
