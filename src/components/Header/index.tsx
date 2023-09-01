@@ -4,7 +4,7 @@ import { HeaderButton } from '../Buttons/HeaderButton';
 
 export function Header() {
   return (
-    <div className="HeaderContainer py-8 px-28 bg-header-grey bg-opacity-100 w-full grid grid-cols-3">
+    <div className="HeaderContainer py-8 px-28 bg-header-grey bg-opacity-100 w-full grid grid-cols-4">
       <div className="item1 col-span-1 flex items-center justify-start">
         <div className="IconContainer flex flex-row justify-start gap-4">
           <Image src={icon} alt="Icon" />
@@ -19,7 +19,7 @@ export function Header() {
         </div>
       </div>
 
-      <div className="item2 col-span-1 flex items-center justify-center gap-16">
+      <div className="item2 col-span-2 flex items-center justify-center gap-16">
         <a
           href="#section2"
           className="Products font-europa text-header-text text-2xl font-normal tracking-header"
