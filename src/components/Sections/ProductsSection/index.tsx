@@ -10,13 +10,13 @@ export function ProductsSection() {
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.';
 
   return (
-    <div className="ProductsContainer flex flex-col py-20 px-[6.5rem] gap-28">
+    <div className="ProductsContainer flex flex-col reg:py-20 p-12 px-[6.5rem] reg:gap-16 gap-10">
       <div className="TextContainer flex flex-col w-full items-start justify-center">
-        <h1 className="TextTitle text-white font-inter text-[3.5rem] leading-none font-medium">
+        <h1 className="TextTitle text-white font-inter reg:text-[3.5rem] text-4xl leading-none font-medium">
           Conheça nossos produtos
         </h1>
 
-        <p className="ParagraphAboutProducts mt-[2rem] w-[58rem] flex-shrink-0 text-xl font-light font-inter text-prod-p">
+        <p className="ParagraphAboutProducts reg:mt-[2rem] mt-[1rem] flex-shrink-0 reg:text-xl text-base font-light font-inter text-prod-p">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
