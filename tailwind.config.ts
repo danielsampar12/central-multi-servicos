@@ -20,7 +20,11 @@ const config: Config = {
       // => @media (min-width: 1024px) { ... }
 
       'xl': '1280px',
+      'xlmax': '1280px',
       // => @media (min-width: 1280px) { ... }
+
+      'reg': '1440px',
+      'regmax': { max: '1440px' },
 
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
