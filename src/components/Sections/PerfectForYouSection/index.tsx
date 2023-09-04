@@ -11,15 +11,15 @@ export function PerfectForYouSection() {
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.';
 
   return (
-    <div className="PerfectForYouSectionContainer flex items-center justify-center px-[6.5rem] py-36">
+    <div className="PerfectForYouSectionContainer flex items-center justify-center reg:px-[6.5rem] px-16 reg:py-36 py-24">
       <div className="ContainerDivider w-full grid grid-cols-2 gap-10">
         {/* metade  */}
-        <div className="container1 col-span-1 flex flex-col justify-between gap-10 mb-10">
-          <div className="item1 flex flex-col items-start justify-between gap-6">
-            <h1 className="Title text-6xl text-black font-bold font-inter">
+        <div className="container1 col-span-1 flex flex-col reg:gap-10 gap-8 mb-10">
+          <div className="item1 flex flex-col items-start justify-between reg:gap-6 gap-3">
+            <h1 className="Title reg:text-6xl text-4xl text-black font-bold font-inter">
               Perfeito para você
             </h1>
-            <p className="Text text-xl text-black/50 font-normal font-inter mb-8">
+            <p className="Text reg:text-xl text-base text-black/50 font-normal font-inter reg:mb-8">
               Faça como as milhares de empresas que cresceram com a ajuda da
               Central Multi Serviços
             </p>

@@ -7,9 +7,9 @@ export function PhoneCardButton() {
     <button
       onClick={() => navigateToElementId('#footer')}
       type="button"
-      className="ContactUsButtonOnCard w-full h-12 rounded-3xl px-10 py-4 gap-2 inline-flex items-center justify-center bg-gradient-to-r from-0.17% from-cms-green via-62.04% via-cms-light-blue to-100% to-cms-blue"
+      className="ContactUsButtonOnCard w-full reg:h-12 rounded-3xl reg:px-10 px-5 reg:py-4 p-2 gap-2 inline-flex items-center justify-center bg-gradient-to-r from-0.17% from-cms-green via-62.04% via-cms-light-blue to-100% to-cms-blue"
     >
-      <p className="ContactUsOnCard text-white text-lg font-medium tracking-wide">
+      <p className="ContactUsOnCard text-white reg:text-lg text-xs font-medium tracking-wide">
         Entre em contato
       </p>
     </button>
