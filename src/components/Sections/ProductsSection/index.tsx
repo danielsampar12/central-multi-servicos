@@ -14,7 +14,7 @@ import {
 
 export function ProductsSection() {
   return (
-    <div className="ProductsContainer flex flex-col reg:py-20 p-12 px-[6.5rem] reg:gap-16 gap-10">
+    <div className="ProductsContainer flex flex-col reg:py-20 py-12 reg:px-[6.5rem] px-16 reg:gap-16 gap-10">
       <div className="TextContainer flex flex-col w-full items-start justify-center">
         <h1 className="TextTitle text-white font-inter reg:text-[3.5rem] text-4xl leading-none font-medium">
           Conheça nossos produtos
