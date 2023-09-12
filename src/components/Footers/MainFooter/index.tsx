@@ -21,7 +21,7 @@ export function MainFooter() {
         </div>
       </div>
 
-      <div className="InfoContainer w-full flex flex-row justify-center gap-40">
+      <div className="InfoContainer w-full flex flex-row justify-between">
         <div className="TextInfoContaniner flex flex-col items-start">
           <h1 className="InfoName text-white reg:text-2xl text-base font-inter font-semibold tracking-[0.03125rem] reg:mb-10 mb-3">
             Informações da empresa
