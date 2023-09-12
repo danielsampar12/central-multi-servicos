@@ -13,15 +13,14 @@ export function PerfectForYouSection() {
   return (
     <div className="PerfectForYouSectionContainer flex items-center justify-center reg:px-[6.5rem] px-16 reg:py-36 py-24">
       <div className="ContainerDivider w-full grid grid-cols-2 gap-10">
-        {/* metade  */}
         <div className="container1 col-span-1 flex flex-col reg:gap-10 gap-8 mb-10">
           <div className="item1 flex flex-col items-start justify-between reg:gap-6 gap-3">
             <h1 className="Title reg:text-6xl text-4xl text-black font-bold font-inter">
               Perfeito para você
             </h1>
             <p className="Text reg:text-xl text-base text-black/50 font-normal font-inter reg:mb-8">
-              Faça como as milhares de empresas que cresceram com a ajuda da
-              Central Multi Serviços
+              Faça como as milhares de empresas e pessoas físicas que cresceram
+              com a ajuda da Central Serviços Financeiros.
             </p>
           </div>
 
