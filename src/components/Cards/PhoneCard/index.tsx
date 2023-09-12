@@ -4,19 +4,15 @@ import phone from '@/assets/iphone.svg';
 import { PhoneCardButton } from '@/components/Buttons/PhoneCardButton';
 
 interface PhoneCardProps {
-  title: string;
   mainText: string;
   subtext: string;
 }
 
-export function PhoneCard({ mainText, subtext, title }: PhoneCardProps) {
+export function PhoneCard({ mainText, subtext }: PhoneCardProps) {
   return (
     <div className="PhoneCardContainer flex flex-col justify-between items-center bg-dark-grey rounded-2xl drop-shadow-2xl reg:px-8 px-4 reg:py-8 py-4">
       <div className="TextsCotnainer flex flex-col items-center reg:mb-6 mb-3">
-        <h2 className="Title text-white/50 font-inter reg:text-lg text-base font-medium">
-          {title}
-        </h2>
-        <h1 className="MainText text-white font-inter reg:text-xl text-lg font-bold">
+        <h1 className="MainText text-white font-inter reg:text-xl text-center text-lg font-bold">
           {mainText}
         </h1>
       </div>

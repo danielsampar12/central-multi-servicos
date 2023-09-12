@@ -1,15 +1,11 @@
 import { PhoneCard } from '@/components/Cards/PhoneCard';
 
-import image2 from '@/assets/icons/prod-icon2.svg';
 import { Paragraph } from '@/components/Typography/Paragraph';
-import { SmallProductCard } from '@/components/Cards/SmProductCard';
+
 import { CardWithPhoto } from '@/components/Cards/CardWithPhoto';
 import { PaymentMethodCard } from '@/components/Cards/PaymentMethodCard';
 
 export function PerfectForYouSection() {
-  const description =
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.';
-
   return (
     <div className="PerfectForYouSectionContainer flex items-center justify-center reg:px-[6.5rem] px-16 reg:py-36 py-24">
       <div className="ContainerDivider w-full grid grid-cols-2 gap-10">
@@ -25,32 +21,31 @@ export function PerfectForYouSection() {
           </div>
 
           <Paragraph
-            subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            subtitle="Empréstimos para Empresários e Pessoas Físicas"
+            text="Uma empresa que oferece empréstimos para pessoas jurídicas e físicas é ideal por várias razões. Se você é empresário ou precisa de dinheiro para projetos pessoais ou quitar dívidas, nossa empresa tem as melhores taxas do mercado. Com empréstimos personalizados, realizamos seus sonhos."
           />
 
           <Paragraph
-            subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            subtitle="Solução de Empréstimos Versátil e Ágil"
+            text="Se você procura uma empresa para empréstimos a pessoas jurídicas e físicas, encontrou a opção ideal. Com diversas opções de empréstimo, a Central Serviços Financeiros atende às suas necessidades específicas, com taxas competitivas e aprovação rápida. Seja para investir no seu negócio ou realizar projetos pessoais, escolher nossa empresa é a decisão certa."
           />
         </div>
 
         <div className="container2 col-span-1 grid grid-cols-2 gap-4">
-          <div className="photos1 col-span-1 flex flex-col items-center gap-4">
+          <div className="photos1 col-span-1 flex flex-col items-center justify-center gap-4">
             <div className="PhoneCardContainer w-full">
               <PhoneCard
-                mainText="Campo 1"
-                title="Lorem ipsum"
+                mainText="Não perca tempo, fale com a gente agora!"
                 subtext="A um clique de distancia"
               />
             </div>
-            <div className="ProdCardContainer">
+            {/* <div className="ProdCardContainer">
               <SmallProductCard
                 description={description}
                 imagePath={image2}
                 title="Campo 3"
               />
-            </div>
+            </div> */}
           </div>
           <div className="photos1 col-span-1 h-full flex flex-col justify-center items-center gap-5 ">
             <CardWithPhoto />

@@ -10,8 +10,9 @@ export function CardWithPhoto() {
           <Image src={imagePath} alt="Lady smiling" />
         </div>
         <div className="reg:py-8 py-4">
-          <span className="text-black text-lg leading-none font-inter font-bold">
-            Campo 2
+          <span className="text-black text-base font-semibold  leading-none font-inter">
+            Nosso especialista está esperando para te dar as melhores dicas de
+            empréstimos.
           </span>
         </div>
       </div>
