@@ -18,7 +18,7 @@ export function IntroSection() {
 
         <div className="SloganAndButtonContainer flex flex-col justify-between items-start mt-12 w-full reg:h-40 h-24">
           <p className="Slogan text-header-text reg:text-2xl text-xl font-medium tracking-spaced">
-            Para sua empresa crescer e prosperar.
+            Para você e sua empresa crescer e prosperar.
           </p>
           <IntroButton />
         </div>

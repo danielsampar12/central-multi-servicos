@@ -3,7 +3,6 @@ import { PhoneCard } from '@/components/Cards/PhoneCard';
 import { Paragraph } from '@/components/Typography/Paragraph';
 
 import { CardWithPhoto } from '@/components/Cards/CardWithPhoto';
-import { PaymentMethodCard } from '@/components/Cards/PaymentMethodCard';
 
 export function PerfectForYouSection() {
   return (
@@ -49,7 +48,6 @@ export function PerfectForYouSection() {
           </div>
           <div className="photos1 col-span-1 h-full flex flex-col justify-center items-center gap-5 ">
             <CardWithPhoto />
-            <PaymentMethodCard />
           </div>
         </div>
       </div>

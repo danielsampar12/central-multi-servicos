@@ -32,7 +32,7 @@ export function ProductsSection() {
       <div className="ProductsCadsContainer grid grid-cols-2 gap-12">
         <ProductCard
           imagePath={image1}
-          title="CREDITO FÁCIL PESSOAL"
+          title="CRÉDITO FÁCIL PESSOAL"
           description={credFacilPessoalDescription}
         />
         <ProductCard
@@ -47,7 +47,7 @@ export function ProductsSection() {
         />
         <ProductCard
           imagePath={image4}
-          title="CREDITO EDUCACIONAL E/OU ESTÉTICO"
+          title="CRÉDITO EDUCACIONAL E/OU ESTÉTICO"
           description={credEducacionalDescription}
         />
       </div>
