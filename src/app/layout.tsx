@@ -47,7 +47,11 @@ export default function RootLayout({
 }) {
   return (
     <html className="scroll-smooth" lang="en">
-      <body className={`${local.variable} ${inter.variable}`}>{children}</body>
+      <body
+        className={`${local.variable} ${inter.variable} !w-[100vw] !max-w-full !overflow-x-hidden !overflow-y-scroll`}
+      >
+        {children}
+      </body>
     </html>
   );
 }

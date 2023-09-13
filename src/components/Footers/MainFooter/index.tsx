@@ -6,7 +6,7 @@ import phone from '@/assets/icons/phone-icon.svg';
 
 export function MainFooter() {
   return (
-    <div className="MainFooterContainer px-10 py-11">
+    <div className="MainFooterContainer reg:px-28 px-10 py-11">
       <div className="FlatContainer w-full flex flex-row justify-start mb-12">
         <div className="IconContainer flex flex-row justify-start gap-4">
           <Image src={icon} alt="Icon" />

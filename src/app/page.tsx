@@ -11,7 +11,7 @@ export default function Home() {
       <h1 className="sm:hidden">
         Site indisponível para o tamanho da tela do aparelho
       </h1>
-      <div className="flex flex-col h-screen w-[110vw] max-w-full overflow-hidden smmax:hidden">
+      <div className="flex flex-col h-screen smmax:hidden">
         <header className="w-full text-center">
           <Header />
         </header>
