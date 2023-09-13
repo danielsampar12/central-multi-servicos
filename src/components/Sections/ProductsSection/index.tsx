@@ -37,12 +37,12 @@ export function ProductsSection() {
         />
         <ProductCard
           imagePath={image2}
-          title="CRÉDITO FÁCIL EMPRESÁRIAL"
+          title="CRÉDITO FÁCIL EMPRESARIAL"
           description={credFacilEmpresaDescription}
         />
         <ProductCard
           imagePath={image3}
-          title="EMPRESTIMOS COM GARANTIAS"
+          title="EMPRÉSTIMOS COM GARANTIAS"
           description={emprestimoDescription}
         />
         <ProductCard
