@@ -12,7 +12,7 @@ export function ProductCard({
   imagePath,
 }: ProductCardProps) {
   return (
-    <div className="ProductCard reg:p-12 p-8 bg-white rounded-2xl shadow flex-col justify-center items-start inline-flex">
+    <div className="ProductCard reg:p-12 p-8 bg-white rounded-2xl shadow flex-col justify-start items-start inline-flex">
       <div className="IconContainer flex flex-row w-full justify-start reg:mb-6 mb-4">
         <Image src={imagePath} alt="Product image" />
       </div>

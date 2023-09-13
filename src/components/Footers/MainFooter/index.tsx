@@ -65,7 +65,10 @@ export function MainFooter() {
           >
             Perfeito para você
           </a>
-          <a className="#section4 text-white reg:text-lg text-sm font-medium font-inter tracking-[0.03125rem] mb-2">
+          <a
+            href="#section4"
+            className="#section4 text-white reg:text-lg text-sm font-medium font-inter tracking-[0.03125rem] mb-2"
+          >
             Sobre nós
           </a>
           <a
