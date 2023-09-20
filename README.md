@@ -1,4 +1,4 @@
-Site institucional da Central Multi Serviços
+Site institucional da Central Multi Serviços desenvolvido com Next.js + Tailwind 
 
 ## Getting Started
 
